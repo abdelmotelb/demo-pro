@@ -3,6 +3,9 @@ footer{
   .newsletter{
     background: linear-gradient(45deg, $teal, $cream-brulee);
     border-radius: $border-radius;
+    .h5{
+      font-size: 1.2rem;
+    }
   }
   .social-number {
     padding-top: .5rem;

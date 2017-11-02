@@ -6926,6 +6926,8 @@ footer {
   footer .newsletter {
     background: linear-gradient(45deg, #CDE3BC, #FFE59E);
     border-radius: 0.25rem; }
+    footer .newsletter .h5 {
+      font-size: 1.2rem; }
   footer .social-number {
     padding-top: .5rem;
     border-top: 1px solid #dee2e6; }
