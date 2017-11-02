@@ -1,0 +1,30 @@
+footer{
+  background-color: $white;
+  .newsletter{
+    background: linear-gradient(45deg, $teal, $cream-brulee);
+    border-radius: $border-radius;
+  }
+  .social-number {
+    padding-top: .5rem;
+    border-top: 1px solid $gray-300;
+  }
+  .border-gray{
+    border: 1px solid $gray-300;
+  }
+
+  .social-links{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    .icon-facebook{
+      color: #4267b2;
+    }
+    .icon-google-plus{
+      color: #BC2739;
+    }
+    .icon-twitter{
+      color: #1DA1F2;
+    }
+  }
+}

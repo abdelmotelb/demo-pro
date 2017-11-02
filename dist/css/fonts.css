@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'demo-font';
+  src:  url('fonts/demo-font.eot?w1vejz');
+  src:  url('fonts/demo-font.eot?w1vejz#iefix') format('embedded-opentype'),
+    url('fonts/demo-font.ttf?w1vejz') format('truetype'),
+    url('fonts/demo-font.woff?w1vejz') format('woff'),
+    url('fonts/demo-font.svg?w1vejz#demo-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.demo-font {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'demo-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment:before {
+  content: "\e900";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-align-justify:before {
+  content: "\e907";
+}
+.icon-chevron-down:before {
+  content: "\e901";
+}
+.icon-chevron-left:before {
+  content: "\e904";
+}
+.icon-chevron-right:before {
+  content: "\e905";
+}
+.icon-chevron-up:before {
+  content: "\e902";
+}
+.icon-eye:before {
+  content: "\e903";
+}
+.icon-search:before {
+  content: "\e906";
+}

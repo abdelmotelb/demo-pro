@@ -1,0 +1,46 @@
+.slider-wrapper{
+  background-color: $indigo;
+  .slider{
+    position: relative;
+    bottom: -50px;
+    margin-top: -50px;
+    margin-bottom: 120px;
+    box-shadow: 0 1rem 1.5rem rgba($black,.175);
+    @include media-breakpoint-down(md) {
+      bottom: 0;
+      margin-top: 0;
+    }
+    .carousel-caption{
+      p{
+        letter-spacing: .1rem;
+      }
+    }
+    .rounded{
+      overflow: hidden;
+    }
+    .carousel-control-prev {
+      left: -70px;
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+    .carousel-control-next{
+      right: -70px;
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+    .carousel-indicators{
+      bottom: -50px;
+
+      li{
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 4rem;
+  font-weight: $font-weight-light;
+}
