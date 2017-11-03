@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'demo-font';
-  src:  url('fonts/demo-font.eot?w1vejz');
-  src:  url('fonts/demo-font.eot?w1vejz#iefix') format('embedded-opentype'),
-    url('fonts/demo-font.ttf?w1vejz') format('truetype'),
-    url('fonts/demo-font.woff?w1vejz') format('woff'),
-    url('fonts/demo-font.svg?w1vejz#demo-font') format('svg');
+  src:  url('fonts/demo-font.eot?yfmphr');
+  src:  url('fonts/demo-font.eot?yfmphr#iefix') format('embedded-opentype'),
+    url('fonts/demo-font.ttf?yfmphr') format('truetype'),
+    url('fonts/demo-font.woff?yfmphr') format('woff'),
+    url('fonts/demo-font.svg?yfmphr#demo-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-left-arrow:before {
+  content: "\e908";
+}
+.icon-right-arrow:before {
+  content: "\e909";
+}
 .icon-comment:before {
   content: "\e900";
 }
