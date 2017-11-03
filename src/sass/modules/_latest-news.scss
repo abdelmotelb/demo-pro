@@ -1,6 +1,9 @@
 .card-text{
   small{
-    font-size: 14px;
+    font-size: .8rem;
+    &.big-small{
+      font-size: 1rem;
+    }
   }
   i{
     margin-left: 15px;

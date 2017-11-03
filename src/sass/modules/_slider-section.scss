@@ -20,13 +20,15 @@
     }
     .carousel-control-prev {
       left: -70px;
-      @include media-breakpoint-down(md) {
+
+      @include media-breakpoint-down(lg) {
         display: none;
       }
     }
     .carousel-control-next{
       right: -70px;
-      @include media-breakpoint-down(md) {
+
+      @include media-breakpoint-down(lg) {
         display: none;
       }
     }

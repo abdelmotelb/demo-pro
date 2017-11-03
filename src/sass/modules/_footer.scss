@@ -3,6 +3,19 @@ footer{
   .newsletter{
     background: linear-gradient(45deg, $teal, $cream-brulee);
     border-radius: $border-radius;
+    .btn{
+      @include media-breakpoint-down(md){
+        margin-top: 1rem;
+      }
+      &.btn-light{
+        color: $indigo;
+        font-weight: 500;
+      }
+      i{
+        position: relative;
+        right: -25px;
+      }
+    }
     .h5{
       font-size: 1.2rem;
     }
@@ -11,15 +24,19 @@ footer{
     padding-top: .5rem;
     border-top: 1px solid $gray-300;
   }
-  .border-gray{
-    border: 1px solid $gray-300;
-  }
 
   .social-links{
     font-size: 2rem;
     display: block;
     text-align: center;
     padding: .5rem;
+    .border-gray{
+      border: 1px solid $gray-300;
+    }
+    i{
+      margin: 1.1rem 0;
+      display: block;
+    }
     .icon-facebook{
       color: #4267b2;
     }

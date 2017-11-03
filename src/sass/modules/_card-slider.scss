@@ -1,10 +1,28 @@
 .card-slider{
-  .carousel-item > div {
-    float: left;
+  .owl-carousel{
+    .owl-nav
+    {
+      [class*=owl-]{
+        position: absolute;
+        top: 50%;
+        color: $secondary;
+        font-size: 4rem;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        @include media-breakpoint-only(lg){
+          display: none;
+        }
+      }
+      .owl-next{
+        right: -55px;
+      }
+      .owl-prev{
+        left: -55px;
+      }
+    }
   }
-  .carousel-by-item [class*="cloneditem-"] {
-    display: none;
-  }
+
   .card-body{
     height: 150px;
     padding: 2.5rem 1.5rem;
@@ -40,28 +58,10 @@
       min-height: 100%;
       height: 100%;
       width:100%;
+      -ms-height: auto;
+      -ms-width: auto;
       object-fit: cover;
     }
   }
 
-  .carousel-control-prev {
-    left: -50px;
-    @include media-breakpoint-down(md) { display: none; }
-  }
-  .carousel-control-next{
-    right: -50px;
-    @include media-breakpoint-down(md) { display: none; }
-  }
-  .carousel-control-prev,
-  .carousel-control-next {
-    color: $gray-900;
-  }
-  .carousel-indicators{
-    display: none;
-    bottom: -50px;
-    @include media-breakpoint-down(md) { display: flex; }
-    li{
-      border-radius: 50%;
-    }
-  }
 }
