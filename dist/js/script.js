@@ -3,7 +3,7 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     dots: false,
-    navText:["<span class='demo-font icon-chevron-left'></span>","<span class='demo-font icon-chevron-right'></span>"],
+    navText:["<span class='demo-font icon-left-arrow'></span>","<span class='demo-font icon-right-arrow'></span>"],
     responsive:{
         0:{
             items:1,

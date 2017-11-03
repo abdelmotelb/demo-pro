@@ -6846,7 +6846,7 @@ header {
 
 .carousel-control-prev,
 .carousel-control-next {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300; }
 
 .hot-cards .media {
@@ -6863,7 +6863,7 @@ header {
   position: absolute;
   top: 50%;
   color: #868e96;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
   background: transparent; }
