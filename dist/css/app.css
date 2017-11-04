@@ -190,7 +190,7 @@ a {
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #3a56a3;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -2334,7 +2334,7 @@ fieldset[disabled] a.btn {
   background-color: transparent; }
   .btn-link:hover {
     color: #3a56a3;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent;
     border-color: transparent; }
   .btn-link:focus, .btn-link.focus {
@@ -6776,7 +6776,6 @@ a.text-dark:focus, a.text-dark:hover {
   margin-right: 5px; }
 
 img {
-  max-width: 100%;
   -ms-flex-negative: 0;
   flex-shrink: 0; }
 
@@ -6834,7 +6833,8 @@ header {
     margin-top: -50px;
     margin-bottom: 120px;
     -webkit-box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.175);
-    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.175); }
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.175);
+    background: #fff; }
     @media (max-width: 991px) {
       .slider-wrapper .slider {
         bottom: 0;
