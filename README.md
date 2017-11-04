@@ -8,6 +8,7 @@ Simple demo of customizing `BootstrapV4 beta` CSS styles using `Gulp`.
 2. Run command in your terminal:
 
 ```
+$ git clone https://github.com/abdelmotelb/demo-pro
 $ cd demo-pro
 $ npm install
 $ gulp

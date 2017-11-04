@@ -20,8 +20,9 @@ $('.owl-carousel').owlCarousel({
             dots: true
         },
         1100:{
-            items:2,
+            items:2
         }
 
     }
 })
+
