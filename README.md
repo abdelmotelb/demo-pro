@@ -1,6 +1,6 @@
-# customize-demo template bootstrapV4 beta-sass
+# Customized-demo template bootstrapV4 beta-sass - OWl-carousel 2 & Custom fonts
 
-Simple demo of customizing `BootstrapV4 beta` CSS styles using `Gulp`.
+Simple demo of customizing `BootstrapV4 beta` adn OWl-Carousel using `Gulp`.
 
 ## Usage
 
